@@ -13,7 +13,7 @@ from PythonQt.QtGui import QWidget, QDialog
 from PythonQt.QtUiTools import QUiLoader
 
 
-class XBackBoneUploader:
+class FileManagerUploader:
 
     def __init__(self):
         self.uil = QUiLoader()
@@ -74,7 +74,7 @@ class XBackBoneUploader:
         r = urllib.request.Request(url, data, headers={
         	'Content-Type': form.get_content_type(),
         	'Content-Length': len(data),
-        	'User-Agent': 'XBackBone/Screencloud-client'
+        	'User-Agent': 'FileManager/Screencloud-client'
         })
 
         try:

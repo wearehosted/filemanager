@@ -7,6 +7,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
+                    <a href="../login.php" class="nav-link">Panel<i class="fas fa-fw fa-arrow-left"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="{{ route('home') }}" class="nav-link {{ inPath(request.uri.path, '/home') ? 'active' }}"><i class="fas fa-fw fa-home"></i>
                         {{ lang('home') }}
                     </a>
