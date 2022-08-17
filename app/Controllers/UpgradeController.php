@@ -17,7 +17,7 @@ use function urlFor;
 
 class UpgradeController extends Controller
 {
-    const GITHUB_SOURCE_API = 'https://api.github.com/repos/SergiX44/XBackBone/releases';
+    const GITHUB_SOURCE_API = 'https://api.github.com/repos/wearehosted/filemanager/releases';
 
     /**
      * @param  Response  $response
@@ -177,7 +177,7 @@ class UpgradeController extends Controller
             'http' => [
                 'method' => 'GET',
                 'header' => [
-                    'User-Agent: XBackBone-App',
+                    'User-Agent: FileManager-App',
                     'Accept: application/vnd.github.v3+json',
                 ],
             ],

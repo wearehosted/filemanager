@@ -112,7 +112,7 @@ return [
     'export_data' => 'Vie dataa',
     'dont_close' => 'Älä sulje tätä välilehteä ennen kuin on valmista.',
     'donation' => 'Lahjoitus',
-    'donate_text' => 'Jos tykkäät XBackBone-sovelluksesta, harkitse lahjoittamista kannattaaksesi sovelluksen ohjelmointia/kehittämistä!',
+    'donate_text' => 'Jos tykkäät FileManager-sovelluksesta, harkitse lahjoittamista kannattaaksesi sovelluksen ohjelmointia/kehittämistä!',
     'table' => 'Pöytä',
     'check_for_updates' => 'Tarkista päivitykset',
     'upgrade' => 'Päivitä',

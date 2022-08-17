@@ -57,7 +57,7 @@ return [
     'custom_head_html_hint' => '입력된 값은 모든 페이지의 <head> 태그에 적용될 거에요.',
     'maintenance_in_progress' => '유지보수 중 이에요, 나중에 다시 시도해주세요…',
     'custom_head_html' => '커스텀 HTML Head',
-    'donate_text' => 'XBackBone이 마음에 든다면, 개발 지원을 위한 후원을 고려해보세요!',
+    'donate_text' => 'FileManager이 마음에 든다면, 개발 지원을 위한 후원을 고려해보세요!',
     'donation' => '기부',
     'drop_to_upload' => '파일을 업로드하려면 클릭하거나 여기에 놓아주세요.',
     'no_upload_token' => '개인 업로드 토큰이 없어요. (생성하고 다시 시도해 주세요.)',

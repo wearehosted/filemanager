@@ -1,7 +1,7 @@
 <?php
 return [
     'prerelease_channel' => 'Kanál předběžného vydání',
-    'default_lang_behavior' => 'XBackBone se pokusí ve výchozím nastavení použít jazyk prohlížeče (záloha je angličtina).',
+    'default_lang_behavior' => 'FileManager se pokusí ve výchozím nastavení použít jazyk prohlížeče (záloha je angličtina).',
     'auto_set' => 'Nastavit automaticky',
     'cancel' => 'Zrušit',
     'maintenance_in_progress' => 'Platforma je v údržbě, zkuste to znovu později…',
@@ -155,7 +155,7 @@ return [
     'custom_head_set' => 'Vlastní hlavička HTML použita.',
     'custom_head_html_hint' => 'Tento obsah bude přidán do tagu <head> na každé stránce.',
     'custom_head_html' => 'Vlastní obsah hlavičky HTML',
-    'donate_text' => 'Pokud se vám líbí XBackBone, zvažte příspěvek na podporu vývoje!',
+    'donate_text' => 'Pokud se vám líbí FileManager, zvažte příspěvek na podporu vývoje!',
     'donation' => 'Přispět',
     'drop_to_upload' => 'Klikněte nebo sem přetáhněte soubory pro nahrání.',
     'no_upload_token' => 'Nemáte osobní nahrávací token. (Vygenerujte si jej a zkuste to znovu.)',

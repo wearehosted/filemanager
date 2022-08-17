@@ -27,7 +27,7 @@ if (!file_exists(CONFIG_FILE) && !is_dir(BASE_DIR.'install/')) {
 
 // Load the config
 $config = array_replace_recursive([
-    'app_name' => 'XBackBone',
+    'app_name' => 'FileManager',
     'base_url' => isSecure() ? 'https://'.$_SERVER['HTTP_HOST'] : 'http://'.$_SERVER['HTTP_HOST'],
     'debug' => false,
     'maintenance' => false,

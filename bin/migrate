@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-((PHP_MAJOR_VERSION >= 7 && PHP_MINOR_VERSION >= 3) || PHP_MAJOR_VERSION > 7) ?: die('Sorry, PHP 7.3 or above is required to run XBackBone.');
+((PHP_MAJOR_VERSION >= 7 && PHP_MINOR_VERSION >= 3) || PHP_MAJOR_VERSION > 7) ?: die('Sorry, PHP 7.3 or above is required to run FileManager.');
 if (PHP_SAPI !== 'cli') {
     die();
 }
